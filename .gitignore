@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# Model checkpoints / weights (large)
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# Generated archives
+llm_job.tar.gz
+preds.tar.gz
+*.tar.gz
+
+# Derived / intermediate data (regenerate via scripts)
+data/experiments/
+data/processed/
+data/llm/pred_*.jsonl
+data/llm/fused.jsonl
+
+# Submission artifacts
+submissions/
+
+# Logs
+*.log
+runs/
+wandb/
+
+# Local secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
