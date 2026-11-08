@@ -1,6 +1,6 @@
-# newcode — ABSA 属性级情感分析
+# ABSA 属性级情感分析
 
-面向中文 ABSA（Aspect-Based Sentiment Analysis）竞赛的建模与提交管线。
+面向中文 ABSA（Aspect-Based Sentiment Analysis）【天池经典打榜赛】赛道六-评论观点挖掘赛的建模与提交管线。
 
 ## 结构
 
