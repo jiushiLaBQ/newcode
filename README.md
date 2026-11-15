@@ -16,12 +16,8 @@ src/
 scripts/        P0/P1 运行脚本与云端作业手册
 tests/          单元测试
 submissions/    历史提交 CSV
-data/
-  train_raw/    原始训练数据
-  test_raw/     原始测试数据
-  llm/          SFT 数据与切分（小体量，入库）
-  processed/    预处理产物（本地生成，不入库）
-  experiments/  实验记录（本地生成，不入库）
+data/           运行数据
+
 ```
 
 ## 环境
